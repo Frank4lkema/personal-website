@@ -28,5 +28,17 @@
 .banner-links{
   position:absolute;
   bottom: -60px;
-  right: 90px;
+  right: 70px;
+
+  width:100px;
+  display:flex;
+  justify-content: space-between;
+  a{
+    color:black;
+  }
+
+  a:hover{
+    text-decoration: none;
+    color: grey;
+  }
 }

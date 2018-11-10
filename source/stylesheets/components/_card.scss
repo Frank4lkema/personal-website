@@ -1,0 +1,27 @@
+.card {
+  height:353px;
+  // border: black solid 1px;
+}
+
+.card-title{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.background-grey{
+  background-color: #DDDDD2;
+}
+
+
+
+body{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#carousel-example-generic{
+  left: -15px;
+  width: 679px;
+}
