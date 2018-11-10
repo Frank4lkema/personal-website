@@ -4,7 +4,7 @@ title: Frank Alkema
 <div class= "banner" style="background-image:linear-gradient(-225deg, rgba(210,220,228,0.7) 0%, rgba(208,212,216,0.7) 50%) ,url(<%= image_path 'javascript.jpg'%>)">
   <div class="banner-content">
     <div class="banner-text">
-      <h1>Frank Alkema Junior Web developer</h1>
+      <h1>Frank Alkema </h1> <h3>Junior Web developer</h3>
     </div>
     <div class="banner-links">
       <%= link_to  "", '#', class: "fab fa-github"  %>
@@ -19,14 +19,15 @@ title: Frank Alkema
   <div class="card card-title  background-grey col-xs-12 col-sm-6">
     <h2>Skills</h2>
   </div>
-  <div class="card col-xs-12  col-sm-6">
-    <span class="test"></span>
+  <div class="card col-xs-12  col-sm-6 skils-list">
     <ul>
-      <li>Ruby on Rails</li>
-      <li> JavaScript</li>
-      <li> HTML</li>
-      <li>CSS</li>
-      <li>SQL</li>
+      <div class="list">
+        <li>Ruby on Rails,</li>
+        <li> JavaScript,</li>
+        <li> HTML,</li>
+        <li>CSS,</li>
+        <li>SQL</li>
+      </div>
     </ul>
   </div>
 </div>
@@ -35,7 +36,7 @@ title: Frank Alkema
     <h2>Work</h2>
   </div>
   <div class="card col-xs-12 background-grey col-sm-6">
-  <%= partial 'partials/slide' %>
+    <%= partial 'partials/slide' %>
 
   </div>
 </div>
@@ -44,7 +45,10 @@ title: Frank Alkema
     <h2>About</h2>
   </div>
   <div class="card col-xs-12 col-sm-6 ">
-    <p>I am a 27 year old Junior Web Developer from Utrecht. After my Bachelors degree switched from HR to web development. Thanks to the Le Wagon coding Bootcamp I learned a lot of new skills. With these new skills i worked on 2 projects. The first project I worked on was Spacemaker. Here people could rent storagespace from people in their area.</p>
+    <div class="about">
+      <p>I am a 27 year old Junior Web Developer from Utrecht. After my Bachelors degree switched from HR to web development. <br><br>Thanks to the Le Wagon coding Bootcamp I learned a lot of new skills. With these new skills i worked on 2 projects. <br><br> The first project I worked on was Spacemaker. Here people could rent storagespace from people in their area.</p>
+    </div>
+    <%= image_tag 'avatar.jpg', class: "profile" %>
   </div>
 </div>
 
