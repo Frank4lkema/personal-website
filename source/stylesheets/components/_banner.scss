@@ -1,0 +1,32 @@
+.banner{
+  height: 100vh;
+  // background-color: black;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+    display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
+
+
+.banner-content{
+  border: black solid 5px;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  color: black;
+  text-align: center;
+
+}
+
+.banner-text{
+  position: absolute;
+  top: -31px;
+}
+
+.banner-links{
+  position:absolute;
+  bottom: -60px;
+  right: 90px;
+}
