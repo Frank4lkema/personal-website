@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){function e(){new Typed(".test",{strings:["Ruby on Rails","JavaScript","HTML","CSS","SQL"],typeSpeed:70,loop:!0,showCursor:!1})}e()});
