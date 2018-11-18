@@ -7,9 +7,9 @@ title: Frank Alkema
       <h1>Frank Alkema </h1> <h3>Junior Web developer</h3>
     </div>
     <div class="banner-links">
-      <%= link_to  "", 'https://github.com/Frank4lkema', class: "fab fa-github"  %>
-      <%= link_to  '', 'https://www.linkedin.com/in/frankalkema/', class: "fab fa-linkedin" %>
-      <%= link_to  '' , 'mailto:frank.alkema@icloud', class: "fas fa-envelope" %>
+      <%= link_to  "", 'https://github.com/Frank4lkema', class: "fab fa-github" ,target: "_blank"  %>
+      <%= link_to  '', 'https://www.linkedin.com/in/frankalkema/', class: "fab fa-linkedin" ,target: "_blank"  %>
+      <%= link_to  '' , 'mailto:frank.alkema@icloud.com', class: "fas fa-envelope" ,target: "_blank"  %>
     </div>
   </div>
 </div>
@@ -36,7 +36,7 @@ title: Frank Alkema
   <div class="card card-title  col-xs-12 col-sm-6">
     <h2>Work</h2>
   </div>
-  <div class="card col-xs-12 background-grey col-sm-6">
+  <div class="card col-xs-12 background-grey col-sm-6 padding-zero">
     <%= partial 'partials/slide' %>
 
   </div>
