@@ -20,15 +20,6 @@ title: Frank Alkema
     <h2>Skills</h2>
   </div>
   <div class="card col-xs-12  col-sm-6 skils-list">
-   <!--  <ul>
-      <div class="list">
-        <li>Ruby on Rails,</li>
-        <li> JavaScript,</li>
-        <li> HTML,</li>
-        <li>CSS,</li>
-        <li>SQL</li>
-      </div>
-    </ul> -->
     <span class="test"></span>
   </div>
 </div>
@@ -37,9 +28,29 @@ title: Frank Alkema
     <h2>Work</h2>
   </div>
   <div class="card col-xs-12 background-grey col-sm-6 padding-zero">
-    <%= partial 'partials/slide' %>
-
-  </div>
+    <div class= "photo-grid">
+      <div class = "photo">
+       <% link_to 'https://space-maker.herokuapp.com',target: "_blank"  do %>
+       <%= image_tag 'spacemaker.png' %>
+       <% end %>
+     </div>
+     <div class = "photo">
+       <% link_to 'https://space-maker.herokuapp.com',target: "_blank"  do %>
+       <%= image_tag 'spacemaker2.png' %>
+       <% end %>
+     </div>
+     <div class = "photo">
+       <% link_to 'https://space-maker.herokuapp.com',target: "_blank"  do %>
+       <%= image_tag 'spacemaker.png' %>
+       <% end %>
+     </div>
+     <div class = "photo">
+       <% link_to 'https://space-maker.herokuapp.com',target: "_blank"  do %>
+       <%= image_tag 'spacemaker2.png' %>
+       <% end %>
+     </div>
+   </div>
+ </div>
 </div>
 <div class="row">
   <div class="card  card-title  background-grey silde-show col-xs-12 col-sm-6">
